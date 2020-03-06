@@ -11,6 +11,7 @@ import javafx.scene.text.Text;
 import javafx.util.Duration;
 
 public class Baloon extends Canvas {
+
     //premenne
     protected GraphicsContext gc;
     protected double rychlost;
@@ -18,15 +19,20 @@ public class Baloon extends Canvas {
     protected Timeline timeline;
     protected static int popped = 0;
     protected static int destroyed = 0;
+    protected double vyskaOkna;
+    protected double sirkaOkna;
+
     //konštruktor
     public Baloon(Group a) {
         super(50,50);
-        this.root = a;
+        root = a;
+        vyskaOkna = root.getScene().getHeight();
+        sirkaOkna = root.getScene().getWidth();
         //generovanie čisla na vytvorenie objektu (vyska)
-        setLayoutY(GenerateDoubleInRange(root.getScene().getHeight()-20,root.getScene().getHeight()+10));
+        setLayoutY(GenerateDoubleInRange(vyskaOkna-20,vyskaOkna+10));
         //generovanie čisla na vytvorenie objektu (sirka)
-        setLayoutX(GenerateDoubleInRange((root.getScene().getWidth())-(((root.getScene().getWidth())/12)*11),(root.getScene().getWidth())-(((root.getScene().getWidth())/12)*2)));
-        this.gc = getGraphicsContext2D();
+        setLayoutX(GenerateDoubleInRange(sirkaOkna-((sirkaOkna/12)*11),sirkaOkna-((sirkaOkna/12)*2)));
+        gc = getGraphicsContext2D();
         rychlost = GenerateDoubleInRange(1,3);
         draw();
         timeline = new Timeline(new KeyFrame(Duration.millis(16), e -> posun()));
@@ -68,10 +74,12 @@ public class Baloon extends Canvas {
     }
     //generovanie čísel (double)
     public static double GenerateDoubleInRange(double min, double max) {
+
         return (Math.random() * ((max - min) + 1)) + min;
     }
     //generovanie čísel (int)
     public static int GenerateIntInRange(int min, int max) {
+
         return (int)(Math.random() * ((max - min) + 1)) + min;
     }
     //odstranenie
