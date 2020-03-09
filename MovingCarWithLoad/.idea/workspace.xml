@@ -2,11 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovingCarWithLoad.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MovingCarWithLoad.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/source/Baloon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/source/Baloon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MovingCarWithLoad.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MovingCarWithLoad/source/Baloon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MovingCarWithLoad/source/Controller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MovingCarWithLoad/source/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MovingCarWithLoad/source/mcwl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MovingCarWithLoad/source/sample.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/source/Baloon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/source/Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/source/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/source/mcwl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/source/sample.fxml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,10 +123,11 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="OverrideImplement.combined" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$PATH_TO_FX$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../FX_Bolóny" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -145,7 +162,7 @@
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="source.Main" />
-      <module name="MovingCarWithLoad" />
+      <module name="FX_Balóny" />
       <option name="VM_PARAMETERS" value="--module-path ${PATH_TO_FX} --add-modules javafx.controls,javafx.fxml" />
       <extension name="coverage">
         <pattern>
@@ -253,6 +270,12 @@
       <workItem from="1583452376383" duration="15000" />
       <workItem from="1583452413120" duration="303000" />
       <workItem from="1583502795795" duration="1453000" />
+      <workItem from="1583509055085" duration="33000" />
+      <workItem from="1583572775914" duration="598000" />
+      <workItem from="1583689527720" duration="1021000" />
+      <workItem from="1583735338636" duration="144000" />
+      <workItem from="1583736237453" duration="583000" />
+      <workItem from="1583751731580" duration="195000" />
     </task>
     <servers />
   </component>
@@ -281,30 +304,30 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="370" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1583285309448" />
-    <state x="591" y="194" key="FileChooserDialogImpl" timestamp="1583502890529">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="473" y="154" key="FileChooserDialogImpl" timestamp="1583751926762">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="473" y="154" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1583339745949" />
+    <state x="473" y="154" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1583751926762" />
     <state x="591" y="194" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1583502890529" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1583503509253">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1493" height="191" key="GridCell.Tab.0.bottom" timestamp="1583736821607">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="192" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1583353863464" />
+    <state width="1493" height="191" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1583736821607" />
     <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583503509253" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1583503509253">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1493" height="191" key="GridCell.Tab.0.center" timestamp="1583736821607">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="192" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1583353863464" />
+    <state width="1493" height="191" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1583736821607" />
     <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583503509253" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1583503509253">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1493" height="191" key="GridCell.Tab.0.left" timestamp="1583736821607">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="192" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1583353863464" />
+    <state width="1493" height="191" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1583736821607" />
     <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583503509253" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1583503509253">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1493" height="191" key="GridCell.Tab.0.right" timestamp="1583736821607">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="192" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1583353863464" />
+    <state width="1493" height="191" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1583736821607" />
     <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583503509253" />
     <state width="1493" height="260" key="GridCell.Tab.1.bottom" timestamp="1583327870333">
       <screen x="0" y="0" width="1536" height="824" />
@@ -322,19 +345,19 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="260" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1583327870333" />
-    <state x="329" y="34" key="SettingsEditor" timestamp="1583503197996">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="263" y="0" key="SettingsEditor" timestamp="1583735352431">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="263" y="27" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1583415054546" />
+    <state x="263" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1583735352431" />
     <state x="329" y="34" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1583503197996" />
     <state x="769" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583504994167">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="769" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1583504994167" />
-    <state x="209" y="114" key="new project wizard" timestamp="1583415070114">
+    <state x="209" y="114" key="new project wizard" timestamp="1583736818002">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="209" y="114" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1583415070114" />
+    <state x="209" y="114" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1583736818002" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1583282445661">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
